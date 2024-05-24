@@ -79,7 +79,12 @@ Este projeto fornece uma API para monitoramento e controle de dispositivos IoT. 
    usuário teste:
 "usuario1@wvblabs.org"
 "SenhaForte!123"
-
+Mysql Database:
+CREATE DATABASE IoTMonitoring;
+CREATE USER 'iotuser'@'localhost' IDENTIFIED BY 'M0qi8ebRoTh+StEpEHiW';
+GRANT ALL PRIVILEGES ON IoTMonitoring.* TO 'iotuser'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
 ### Documentação da API
 
 A documentação da API está disponível através do Swagger. Após iniciar a aplicação, acesse `http://localhost:5160/swagger` para visualizar e testar as rotas disponíveis.
