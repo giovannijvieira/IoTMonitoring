@@ -76,6 +76,10 @@ Este projeto fornece uma API para monitoramento e controle de dispositivos IoT. 
    dotnet run
    ```
 
+   usuário teste:
+"usuario1@wvblabs.org"
+"SenhaForte!123"
+
 ### Documentação da API
 
 A documentação da API está disponível através do Swagger. Após iniciar a aplicação, acesse `http://localhost:5160/swagger` para visualizar e testar as rotas disponíveis.
